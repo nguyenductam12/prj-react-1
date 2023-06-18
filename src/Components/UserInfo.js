@@ -8,14 +8,6 @@ class UserInfo extends React.Component{
         age: '19',
     };
 
-    handleClick = (event) =>{
-        console.log("Hello");
-        this.setState({
-            name:"Đức Tâm",
-            age: Math.floor(Math.random()*100 + 1)
-        })
-        console.log(this.state.name)
-    }
     handleOnSubmit = (event) => {
         event.preventDefault()
         console.log(this.state)
